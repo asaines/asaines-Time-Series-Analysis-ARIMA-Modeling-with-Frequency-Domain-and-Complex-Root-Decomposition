@@ -6,6 +6,11 @@ This repository contains a comprehensive tutorial on advanced time series analys
 
 Time series analysis is a powerful statistical approach for understanding and forecasting data collected over time. This tutorial explores Seasonal ARIMA (AutoRegressive Integrated Moving Average) models through the lens of frequency domain analysis and complex root decomposition, offering deeper insights into time series behavior and characteristics.
 
+## Documentation
+
+For a detailed explanation of the methodology, implementation, and results:
+- See the comprehensive [technical report](docs/Technical_report.pdf) in the `docs` folder
+
 ## Key Concepts Explored
 
 - **Complex Roots Analysis**: Understanding poles and zeros in the complex plane and their effect on time series behavior
@@ -78,6 +83,20 @@ Clone this repository and explore the R scripts to follow along with the tutoria
 ```bash
 git clone https://github.com/asaines/time-series-frequency-analysis.git
 cd time-series-frequency-analysis
+```
+
+## Repository Structure
+
+```
+.
+├── README.md          # Overview and guide to the repository
+├── docs/              # Documentation folder
+│   └── Alexander_Saine_r0731904.pdf  # Detailed technical report
+├── R/                 # R scripts for analysis and visualization
+│   ├── arima.sim.freq2.R   # Functions for time series simulation
+│   ├── time-series-modeling.R     # ARIMA model fitting functions
+│   
+└── data/              # Sample data and simulation results
 ```
 
 ## References
