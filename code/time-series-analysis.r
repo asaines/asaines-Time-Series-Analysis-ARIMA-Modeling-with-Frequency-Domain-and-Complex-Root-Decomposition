@@ -110,7 +110,7 @@ print(result$Configuration)
 ts1 <- ts(result$data$TimeSeries, frequency = 4)
 autoplot(ts1)
 
-# Fit auto.arima model
+## Fit auto.arima model
 fitted_model <- auto.arima(ts1)
 summary(fitted_model)
 
